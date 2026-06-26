@@ -55,6 +55,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             --bg-gray: #F4F3F8;
             --text-main: #2C1D54;
         }
+        
+        .developer-credit{
+   			 margin-top: 25px;
+  			 font-size: 0.95rem;
+    		opacity: 0.9;
+   			 font-weight: 500;
+		}
 
         body {
             font-family: 'Poppins', sans-serif;
@@ -331,9 +338,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </svg>
 
         <div class="login-title-box">
-            <h1>Sistem Informasi<br>Pengajuan Cuti Karyawan</h1>
-            <p>Kelola pengajuan cuti tahunan, sakit, dan izin khusus secara mudah, transparan, dan efisien dalam satu platform terintegrasi.</p>
-        </div>
+    		<h1>Sistem Informasi<br>Pengajuan Cuti Karyawan</h1>
+   			 <p>Kelola pengajuan cuti tahunan, sakit, dan izin khusus secara mudah, transparan, dan efisien dalam satu platform terintegrasi.</p>
+
+  		 	 <div class="developer-credit">
+       			 Developed by <strong>Vindy Chresika (14022400041) 4A-INF UAS Pak Gagah</strong>
+   		 	</div>
+		</div>
     </div>
 
     <!-- Sisi Kanan: Card Login -->
