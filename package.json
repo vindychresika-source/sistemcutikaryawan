@@ -1,0 +1,7 @@
+{
+  "name": "sistem-cuti-karyawan",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "C:\\xampp1\\php\\php.exe -S localhost:8000"
+  }
+}
